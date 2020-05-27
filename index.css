@@ -1,0 +1,292 @@
+/**Color
+GENERAL
+    SIZE 750px
+    LINES COVER ALL THE WIDTH
+    BACKGROUND #212224
+    NO WHITE COLORS ON SIDES
+    Fonts: 
+        Headings: Georgia, serif
+        All other text: Arial, Helvetica, sans-serif
+    
+
+HEADER
+    BACKGROUND #000000
+    
+
+NAV BAR
+    BACKGROUND #1b1b1b
+    TEXT COLOR  #cccccc
+    BORDERS TOP - BOTTOM #262626
+    DIVISION LINES OF BUTTONS #646464
+    Home: index.html
+    Mission: mission.html
+    Community: community.html
+    Events: events.html
+
+CONTENT/BODY
+    BACKGROUND #212224
+        MAIN IMAGE 
+            BORDER #3B3B3B
+            ROUNDED CORNERS
+    TITLE COLOR #CCA756
+    TEXT COLOR #ffffff
+    USE # FOR READ MORE LINKS
+
+
+FOOTER
+    BACKGROUND #1b1b1b
+    TEXT COLOR #757575
+    TOP BORDER #262626
+
+BUTTON (fixed)
+    OUT STROKE #000000
+    BACKGROUND #1b1b1b
+    TEXT COLOR #cccccc
+    
+
+
+**/
+/** ------* Header/Nav * ------- **/
+/* HEADER */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #000000;
+    padding-top: 100px;
+
+}
+
+#button1{
+    position: fixed;
+    top: 0px;
+    background-color: #1b1b1b;
+    color: #cccccc;
+    border: 2px solid #000000;
+    padding-top:20px;
+    right: 340px;
+    text-decoration: none;
+    font-size: 1.2em;
+        
+}
+
+
+
+
+#logoContainer { 
+    width: auto;
+    height: 2px;
+    background-color: #000000;
+/*    border-top: -50px;*/
+    text-align: center;
+}
+
+
+#logoContainer img {
+    margin-top: -5.6em;
+    width: 280px;
+    margin-left: -610px;
+    
+}
+
+
+/* NAVIGATION MENU */
+
+nav {
+    padding-left: 350px;
+    width:auto;
+    height: auto;
+    background-color: #1b1b1b;
+    border-top: 2px solid #262626;
+    border-bottom: 3px solid #262626;
+         
+}
+
+header nav ul {    
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+header nav li {
+    height: auto;
+    padding: 15px 10px 15px 10px;
+    display: inline-block;
+    font-size: 1.1em;
+    border-right: 1.5px solid #646464;
+    
+}
+
+header nav li:first-child {
+    border-left: 1.5px solid #646464;
+}
+
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #ffffff;
+}
+
+nav a:hover {
+    color: #000000;
+}
+
+nav a:active {
+    color: #fff;
+}
+
+
+
+/** -------- * Body / Section* --------**/
+
+body {
+    width: 100%;
+    min-width: 750px;
+    height: auto;
+    background-color: #212224;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1{
+    color: #cca756;
+    font-family: Georgia, serif;
+    font-size: 1.8em;
+}
+#maincontent {
+    margin: auto;
+    text-align: center;
+    
+}
+#banner{
+     margin-top:40px;
+    
+}
+
+#falcon{
+    border: 2px solid #3b3b3b;
+    border-radius: 18px;
+    
+}
+
+#text{
+    margin-bottom: 40px;
+
+}
+
+#column1 {
+
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    
+
+}
+
+#column2{
+
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    
+    
+}
+
+#column3{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    
+}
+
+
+a {
+    color: #c6a254;
+    
+}
+
+
+/** -----* Footer * ----- **/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1b1b1b;
+    color: #757575;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    float: right;
+    margin-bottom: 0px;
+    border-top: 2px solid #262626;
+}
+
+#footercolumns{
+    padding-top: 30px;
+    
+}
+
+#column4{
+    
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+    color: #757575;
+    padding-right: 5px;
+    line-height: 20px;
+}
+
+#column5{
+    
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    color: #757575;
+    padding-left: 10px;
+    line-height: 20px;
+    
+}
+
+#column6{
+    
+    display:inline-block;
+    float:none;
+/*   
+/*    align-content: space-around;*/
+/*    padding-left: 0px;*/
+/*    line-height: 5px;*/
+    
+}
+footer img{
+    width: 20px;
+    display: flex;
+    margin: 2px;
+}
+
+
+footer a {
+    color: #757575;
+    
+}
+
